@@ -42,6 +42,9 @@ div {
   background-color: black;
 }
 
+.down-arrow > div {
+  background:none;
+}
 
 header {
   width:100%;
