@@ -385,9 +385,11 @@ ul li {
   }
 
   .about-image {
-    height:10%;
-    position:static;
+    height:16%;
+    position:absolute;
     order:2;
+    top:10%;
+    left: 20px;
   }
 
   .about-header {
@@ -402,4 +404,22 @@ ul li {
     font-size:3em;
   }
 
+  h3 {
+    font-size:1.2em;
+  }
+
+  .skills-container {
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+
+
+  .skills-header {
+    width:100%;
+  }
+
+  .skills-container > ul{
+    width:50%;
+  }
+  
 }
