@@ -22,7 +22,7 @@ class Skills extends React.Component {
                 </li>
               </ul>
 
-              <h2>
+              <h2 className="skills-header">
               Skills
               </h2>
               <ul>
