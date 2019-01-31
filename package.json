@@ -2,7 +2,7 @@
   "name": "react-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gsvendsen.github.io/",
+  "homepage": "https://gsvendsen.github.io/react-portfolio/",
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.10",
     "gh-pages": "^2.0.1",
