@@ -162,7 +162,7 @@ h4 {
 }
 
 .project-container:hover {
-  transform:scale(1.1);
+  transform:scale(1.05);
 }
 
 .project-background {
@@ -185,16 +185,16 @@ h4 {
   flex-direction: row;
   justify-content: space-evenly;
   font-size:0.7em;
+  border:white solid 3px;
   align-items: center;
   bottom: 0;
-  height:50px;
+  height:45px;
   z-index: 2;
   position:absolute;
-  padding:5px;
+  align-self:center;
   box-sizing: border-box;
   -webkit-box-shadow: 0px -10px 0px 10px #000;
   box-shadow: 0px -10px 20px -10px #000;
-  margin-left:-3px;
   transition:transform 0.25s ease-in-out;
 }
 
@@ -214,7 +214,7 @@ h4 {
   border-radius:50%;
   position: absolute;
   left:3%;
-  height:250px;
+  width:20%;
 }
 
 .work-container {
@@ -311,15 +311,12 @@ ul li {
 
 
 .skills-container > ul {
+  border-right:1px solid white;
+  box-sizing: border-box;
 }
 
 .skills-header {
   width:auto;
-}
-
-
-.align-left > * {
-  text-align:left;
 }
 
 .contact-container {
@@ -337,6 +334,16 @@ ul li {
   /* For mobile phones: */
   h2 {
     font-size: 2em;
+  }
+
+  .align-left > * {
+    text-align:left;
+  }
+
+
+  .about-list {
+    padding:20px;
+    box-sizing: border-box;
   }
 
   .work {
@@ -379,7 +386,6 @@ ul li {
 
   .projects {
     padding:50px 20px;
-    height:85vh;
   }
 
   a {
@@ -396,7 +402,7 @@ ul li {
   }
 
   .about-image {
-    height:16%;
+    width:25%;
     position:absolute;
     order:2;
     top:7%;
@@ -437,11 +443,16 @@ ul li {
 
   .skills-container > ul{
     width:50%;
+    padding:10px;
   }
 
   .contact-container {
     padding:20px;
     width:100%;
+  }
+
+  ul.mobile-no-border {
+    border-right:0px;
   }
 
 }

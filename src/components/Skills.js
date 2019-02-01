@@ -17,7 +17,7 @@ class Skills extends React.Component {
                 <li>mySQL / SQLite</li>
               </ul>
               <h3 className="skills-header align-right">Learning</h3>
-              <ul>
+              <ul className="mobile-no-border">
                 <li>React.js</li>
                 <li>Node</li>
                 <li>Laravel</li>
