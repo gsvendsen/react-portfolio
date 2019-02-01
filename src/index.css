@@ -58,6 +58,14 @@ header {
   box-sizing: border-box;
 }
 
+p {
+  font-size:1.4em;
+}
+
+a {
+  font-size:1em;
+}
+
 .down-arrow {
   animation: bounce 1s infinite ease-in-out alternate;
   position:absolute;
@@ -303,9 +311,11 @@ ul li {
 
 
 .skills-container > ul {
-  width:30%;
 }
 
+.skills-header {
+  width:auto;
+}
 
 
 .align-left > * {
@@ -313,12 +323,12 @@ ul li {
 }
 
 .contact-container {
-  width:100%;
+  width:80%;
   padding:50px;
-  height:40vh;
+  height:100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   box-sizing: border-box;
 }
 
@@ -373,7 +383,7 @@ ul li {
   }
 
   a {
-    font-size:1.2em;
+    font-size:1em;
   }
 
   ul {
@@ -382,13 +392,14 @@ ul li {
 
   ul li {
     font-size:1.2em;
+    margin:30px 0;
   }
 
   .about-image {
     height:16%;
     position:absolute;
     order:2;
-    top:10%;
+    top:7%;
     left: 20px;
   }
 
@@ -405,21 +416,32 @@ ul li {
   }
 
   h3 {
-    font-size:1.2em;
+    font-size:1.5em;
   }
 
   .skills-container {
     flex-direction: row;
     flex-wrap:wrap;
+    justify-content: space-between;
   }
 
 
   .skills-header {
-    width:100%;
+    width:50%;
+  }
+
+
+  .align-right {
+    text-align:right;
   }
 
   .skills-container > ul{
     width:50%;
   }
-  
+
+  .contact-container {
+    padding:20px;
+    width:100%;
+  }
+
 }
