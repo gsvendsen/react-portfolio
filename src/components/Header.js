@@ -16,7 +16,7 @@ function Header(props) {
         </h1>
 
         <h3>
-          Web Developer 🖥
+          Web Developer 👨‍💻
         </h3>
 
         <h4>
