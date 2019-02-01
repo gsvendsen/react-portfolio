@@ -16,7 +16,7 @@ class About extends React.Component {
             About Me
             </h2>
 
-            <ul>
+            <ul className="about-list">
               <li>Developing web applications since 2014</li>
               <li>Play all kind of games on my free time</li>
               <li>Studying my first year of Web Development at Yrgo</li>
