@@ -1,7 +1,7 @@
 import React from 'react';
+import Project from '../Project/';
 
-import ScrollTrigger from 'react-scroll-trigger';
-import Project from './Project';
+import './Work.css'
 
 class Work extends React.Component {
   render() {

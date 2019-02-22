@@ -1,0 +1,35 @@
+.work {
+  display:flex;
+  width:100%;
+  box-sizing: border-box;
+  height:100vh;
+  padding:100px;
+  flex-direction: column;
+  background-color: #111;
+  justify-content: space-evenly;
+}
+
+.work-container {
+  display:flex;
+  justify-content: space-between;
+  padding:20px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .work {
+    padding: 20px 20px 20px 20px;
+    height:85vh;
+  }
+
+  .work-container {
+    flex-wrap:wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+}

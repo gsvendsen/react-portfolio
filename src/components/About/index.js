@@ -1,7 +1,7 @@
 import React from 'react';
-
-import ScrollTrigger from 'react-scroll-trigger';
 import ReactSVG from 'react-svg';
+
+import './About.css'
 
 class About extends React.Component {
   render() {
@@ -10,20 +10,22 @@ class About extends React.Component {
       <div className="section">
 
         <div className="wrapper">
-          <div className="projects" id="projects">
+          <div className="about">
 
-            <h2 className="about-header">
-            About Me
-            </h2>
+            <div className="about-container">
+              <h2 className="about-header">
+                About Me
+              </h2>
+              <img className="about-image" src="https://i.imgur.com/fdkScIx.png" />
+            </div>
 
             <ul className="about-list">
-              <li>Developing web applications since 2014</li>
-              <li>Play all kind of games on my free time</li>
+              <li>Developing web applications since 2015</li>
               <li>Studying my first year of Web Development at Yrgo</li>
+              <li>Lives on bad jokes and lots of coffee</li>
               <li>Love travel and learning new languages</li>
             </ul>
 
-            <img className="about-image" src="https://i.imgur.com/fdkScIx.png" />
 
           </div>
 
