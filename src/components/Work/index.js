@@ -13,7 +13,7 @@ class Work extends React.Component {
         <div className="work" id="work">
 
           <h2>
-          My Work
+          Projects
           </h2>
 
           <div className="work-container">
@@ -35,6 +35,12 @@ class Work extends React.Component {
               githubUrl="https://www.github.com/gsvendsen/photoify"
               name="Photoify"
               logoUrl="https://i.imgur.com/Esx65xO.png"
+            />
+            <Project
+              imgUrl="https://i.imgur.com/35aUC0f.jpg"
+              githubUrl="https://github.com/adrianjung/sgn-project"
+              name="SGN"
+              logoUrl="https://i.imgur.com/vAKx1pf.png"
             />
           </div>
 

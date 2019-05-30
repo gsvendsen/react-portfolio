@@ -20,10 +20,10 @@ class About extends React.Component {
             </div>
 
             <ul className="about-list">
-              <li>Developing web applications since 2015</li>
-              <li>Studying my first year of Web Development at Yrgo</li>
+              <li>Studying my second year of Web Development in the coming fall</li>
+              <li>Working at Ericsson as a summer intern</li>
+              <li>Front end enthusiast</li>
               <li>Always looking for new challenges to take on</li>
-              <li>Tech Enthusiast since I was a kid</li>
             </ul>
 
 

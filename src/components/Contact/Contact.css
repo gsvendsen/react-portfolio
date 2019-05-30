@@ -1,6 +1,6 @@
 .contact-container {
   width:80%;
-  padding:50px;
+  padding:0 100px;
   height:100vh;
   display: flex;
   flex-direction: column;

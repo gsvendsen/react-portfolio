@@ -3,10 +3,10 @@ import './Header.css'
 
 import ReactSVG from 'react-svg'
 
-function Header(props) {
+const Header = props => {
   return (
     <div className="section">
-      <header>
+      <header className="fade-down">
 
         <h5>
           {"Hi I'm"}

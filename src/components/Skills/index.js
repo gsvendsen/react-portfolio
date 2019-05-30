@@ -12,19 +12,21 @@ class Skills extends React.Component {
                 Skills
               </h3>
               <ul className="align-left">
-                <li>CSS</li>
+
+                <li>CSS/Sass</li>
                 <li>JavaScript</li>
                 <li>PHP</li>
-                <li>mySQL / SQLite</li>
+                <li>React</li>
+                <li>Node</li>
+
               </ul>
               <h3 className="skills-header align-right">Learning</h3>
               <ul className="mobile-no-border">
-                <li>React.js</li>
-                <li>Node</li>
-                <li>Laravel</li>
-                <li>Wordpress</li>
+                <li>Redux</li>
+                <li>Docker</li>
+
               </ul>
-              </div>
+            </div>
           </div>
       </div>
     )
